@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0" />
+    <title>Tabelas com rawspan e cowspan</title>
+    <style>
+      th,
+      td {
+        border: 2px solid black;
+        border-collapse: collapse;
+      }
+    </style>
+  </head>
+  <body>
+    <table>
+      <thead>
+        <th>N°</th>
+        <th>Nome</th>
+        <th>Idade</th>
+        <th colspan="3">Sobre</th>
+      </thead>
+      <tbody>
+         <td>1</td>
+         <td>James</td>
+         <td>15</td>
+         <td>profissao</td>
+         <td>escolaridade</td>
+         <td>filmes</td>
+         <tfoot>
+            <td colspan="6" align="center">Minha tabela</td>
+         </tfoot>
+      </tbody>
+    </table>
+  </body>
+</html>

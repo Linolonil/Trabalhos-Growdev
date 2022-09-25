@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tabelas</title>
+    <style>
+      table,
+      th,
+      td {
+        border: 1px solid black; /*espessura, tipo e cor*/
+        padding: 6px; /*espaçamento interno(afastamento na caixa)*/
+      }
+    </style>
+  </head>
+  <body>
+    <table style="width: 100%">
+      <colgroup>
+        <col />
+        <col style="background-color: blue" />
+      </colgroup>
+
+      <caption>
+        Lista de Growdevers
+      </caption>
+      <thead>
+        <tr>
+          <th>Nome</th>
+          <th>Sobrenome</th>
+          <th>Idade</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>João</td>
+          <td colspan="2">Silva</td>
+        </tr>
+
+        <tr>
+          <td>Maria</td>
+          <td>Alves</td>
+          <td rowspan="2">94</td>
+        </tr>
+        <tr>
+          <td>Martins</td>
+          <td>80</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <td colspan="3">Olá teste</td>
+        </tr>
+      </tfoot>
+    </table>
+  </body>
+</html>

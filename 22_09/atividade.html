@@ -4,47 +4,83 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>TABELA DIFICIL</title>
+    <title>3 tabelas</title>
     <style>
       table {
-        width: 100%;
-        height: 500px;
-        border: 1px solid black;
+        width: 25%;
+        height: 300px;
+        border: 4px solid white;
+        border-collapse: collapse;
       }
-      table,
       td {
-        border: 1px solid black;
+        border: 1px solid white;
       }
     </style>
   </head>
   <body>
-    <header></header>
-    <main>
+  
       <table>
         <tr>
-          <td colspan="5"></td>
+          <td style="background-color: black" colspan="3"></td>
         </tr>
         <tr>
-          <td rowspan="4"></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
+          <td style="background-color: blue"></td>
+          <td style="background-color: red"></td>
+          <td style="background-color: blue"></td>
         </tr>
         <tr>
-          <td></td>
-          <td></td>
-          <td rowspan="2"></td>
-          <td></td>
+          <td style="background-color: red"></td>
+          <td style="background-color: blue"></td>
+          <td style="background-color: red"></td>
+        </tr>
+       
+      </table>
+      <br />
+      <hr />
+      <br />
+      <table>
+        <tr>
+          <td style="background-color: purple" rowspan="3"></td>
+          <td style="background-color: green"></td>
+          <td style="background-color: #ff007f"></td>
         </tr>
         <tr>
-          <td></td>
-          <td></td>
-          <td></td>
+          <td style="background-color: #ff007f"></td>
+          <td style="background-color: green"></td>
         </tr>
         <tr>
-          <td colspan="3"></td>
-          <td></td>
+          <td style="background-color: green"></td>
+          <td style="background-color: #ff007f"></td>
+        </tr>
+      </table>
+      <br />
+      <hr />
+      <br />
+      <table>
+        <tr>
+          <td style="background-color: black" colspan="5"></td>
+        </tr>
+        <tr>
+          <td style="background-color: black" rowspan="4"></td>
+          <td style="background-color: red"></td>
+          <td style="background-color: black"></td>
+          <td style="background-color: red"></td>
+          <td style="background-color: black"></td>
+        </tr>
+        <tr>
+          <td style="background-color: red"></td>
+          <td style="background-color: black"></td>
+          <td style="background-color: red" rowspan="2"></td>
+          <td style="background-color: black"></td>
+        </tr>
+        <tr>
+          <td style="background-color: red"></td>
+          <td style="background-color: black"></td>
+          <td style="background-color: black"></td>
+        </tr>
+        <tr>
+          <td style="background-color: red" colspan="3"></td>
+          <td style="background-color: black"></td>
         </tr>
       </table>
     </main>

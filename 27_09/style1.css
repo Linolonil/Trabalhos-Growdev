@@ -1,0 +1,22 @@
+body {
+   margin: 0;
+}
+table {
+   background-color:  blue;
+   width: 100vw;
+   height: 100vh;
+}
+thead{
+   background-color: red;
+   height: 7;
+}
+tbody{
+   background:  url(https://d35aaqx5ub95lt.cloudfront.net/images/dca3b978d07a7dfc05adb1d5526e9e21.svg);
+}
+foot{
+   background-color: blue;
+   height: 8%;
+}
+#duolingo-logo {
+
+}
